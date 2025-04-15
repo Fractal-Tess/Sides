@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/daily-pastel-spark/',
+  base: process.env.GITHUB_ACTIONS ? '/Sides/' : '/',
   server: {
     host: '::',
     port: 8080,

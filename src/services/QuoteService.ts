@@ -9,8 +9,8 @@ type Quote = {
 const quotes: Quote[] = [
   {
     id: 1,
-    text: "The only way to do great work is to love what you do.",
-    author: "Steve Jobs"
+    text: "Train like you've never won, compete like you've never lost.",
+    author: "Sergio Busquets"
   },
   {
     id: 2,

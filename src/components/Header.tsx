@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className="text-center mb-6 animate-fade-in">
       <h1 className="text-2xl md:text-3xl font-bold text-primary tracking-tight mb-1">
-        Daily Spark
+        Sides
       </h1>
       <p className="text-sm text-muted-foreground">
         {formattedDate}

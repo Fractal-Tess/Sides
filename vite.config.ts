@@ -18,9 +18,9 @@ export default defineConfig(({ mode }) => ({
         enabled: true,
       },
       manifest: {
-        name: 'Daily Pastel Spark',
-        short_name: 'PastelSpark',
-        description: 'A beautiful daily planner app',
+        name: 'Sides',
+        short_name: 'Sides',
+        description: 'A beautiful daily motivational app',
         theme_color: '#ffffff',
         icons: [
           {
